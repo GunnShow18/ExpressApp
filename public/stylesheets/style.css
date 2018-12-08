@@ -1,0 +1,11 @@
+.jumbotron {
+    border: solid;
+    border-width: .5px;
+    height: 175px;
+}
+
+nav {
+    border: solid;
+    border-width: .5px;
+}
+

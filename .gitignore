@@ -12,6 +12,9 @@ Desktop.ini
 .directory
 *~
 
+# API keys
+config.js
+.env
 
 # npm
 node_modules

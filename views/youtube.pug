@@ -1,0 +1,45 @@
+extends layout.pug
+block content
+    h2 YOUTUBE
+    div
+      hr
+      input#search(type="text")
+      hr
+    div
+      button#submit(type="submit") Click To Search
+    .youtubeItems
+      div.row
+        div.col-sm-3
+          a(id="video0", href="")
+            img.card-img-top0#card
+        div.col-sm-3
+          a(id="video1", href="")
+            img.card-img-top1#card
+        div.col-sm-3
+          a(id="video2", href="")
+            img.card-img-top2#card
+        div.col-sm-3
+          a(id="video3", href="")
+            img.card-img-top3#card
+        div.col-sm-3
+          a(id="video4", href="")
+            img.card-img-top4#card
+        div.col-sm-3
+          a(id="video5", href="")
+            img.card-img-top5#card
+        div.col-sm-3    
+          a(id="video6", href="")
+            img.card-img-top6#card
+        div.col-sm-3
+          a(id="video7", href="")
+            img.card-img-top7#card
+        div.col-sm-3
+          a(id="video8", href="")
+            img.card-img-top8#card
+        div.col-sm-3
+          a(id="video9", href="")
+            img.card-img-top9#card
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' type='text/javascript')
+    script(src='youtube.js')
+
+    
